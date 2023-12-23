@@ -2,7 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=/theme/index.html" />
+    <!-- <meta http-equiv="refresh" content="0;url=/theme/index.html" /> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('/theme/index.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.body.innerHTML = html;
+                })
+                .catch(err => console.error('Failed to load page:', err));
+        });
+    </script>
     <title>Sahay AI</title>
 </head>
 <body>
