@@ -3,7 +3,7 @@ draft: false
 name: "Tejas Agarwal"
 title: "Co-Founder / CEO"
 avatar: {
-    src: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frobojet&psig=AOvVaw3zIhcjEPEOYIs5EFfye3T_&ust=1706434195290000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIi36PGg_YMDFQAAAAAdAAAAABAE",
+    src: "https://media.licdn.com/dms/image/D4E03AQG1oMylzalJsg/profile-displayphoto-shrink_800_800/0/1701784377654?e=2147483647&v=beta&t=t_KqupTGKx5UMqItnsCcfgH3iQLi-kuex_pzhl27-kA",
     alt: "Tejas Agarwal"
 }
 publishDate: "2022-11-07 15:39"
