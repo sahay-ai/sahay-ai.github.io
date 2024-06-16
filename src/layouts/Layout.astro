@@ -18,8 +18,8 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Sahay AI"
-  : "Sahay AI - Revolutionizing inspections";
+  ? title + " | " + "Sahay"
+  : "Sahay";
 ---
 
 <!DOCTYPE html>
@@ -27,13 +27,13 @@ const makeTitle = title
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/sahay_wob.jpg" />
+    <link rel="icon" type="image/svg+xml" href="/company_logo.png" />
     <meta name="generator" content={Astro.generator} />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Sahay AI - Revolutionizing infrastructure inspections"
+      description="Sahay"
       canonical={canonicalURL}
       twitter={{
         creator: "@surjithctly",
@@ -44,7 +44,7 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Sahay AI - Revolutionizing infrastructure inspections`,
+          title: `Sahay`,
           image: resolvedImageWithDomain,
         },
         image: {

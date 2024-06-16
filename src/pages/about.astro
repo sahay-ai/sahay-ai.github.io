@@ -20,15 +20,55 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Revolutionizing the world with Sahay.
+        We use robots to automate inspections.
       </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        We at Sahay are a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skill sets to
-        solving the age old problem of tardy inspections. Our team is what makes the difference!
-      </p>
+
+
+      <div class="mt-8 text-lg leading-relaxed text-gray-800">
+        <h2><b> Our Mission</b></h2>
+        <p>
+          Welcome to Sahay AI, where we are dedicated to transforming the future of rail inspections through the power of physical AI. Our mission is to enhance the safety, efficiency, and reliability of railway systems worldwide.
+        </p> <br>
+
+        <h2><b> Mission Statement </b></h2>
+
+        <p>
+          Currently, the railway infrastructure faces numerous challenges:
+          <ul class="list-disc ml-5">
+            <li><b>Aging and Defective Infrastructure:</b> Many railway tracks are old and deteriorating, leading to increased risks and maintenance needs.</li>
+            <li><b>Unstructured Inspections:</b> Current inspection methods are often manual, inconsistent, and lack standardization, resulting in missed or overlooked defects.</li>
+            <li><b>Backlog of Maintenance:</b> Due to inefficient inspection processes, there is a significant backlog of maintenance tasks that need to be addressed.</li>
+            <li><b>Safety Risks:</b> Defective tracks and delayed maintenance increase the likelihood of accidents and derailments, putting lives at risk.</li>
+            <li><b>Operational Delays:</b> Frequent delays due to track issues lead to substantial operational costs and loss of revenue for railway companies.</li>
+            <li><b>Remote Access Challenges:</b> Inspecting tracks in remote or hard-to-reach areas is difficult, further complicating maintenance efforts.</li>
+          </ul>
+        </p> <br>
+
+        <h2><b> Our Solution </b></h2>
+
+        <p>
+          Sahay AI addresses these challenges with a comprehensive approach that leverages advanced technology to revolutionize rail inspections. Our solution includes:
+          <ul class="list-disc ml-5">
+            <li><b>AI-Powered Inspections:</b> Utilizing AI to perform thorough and accurate inspections, identifying defects that might be missed by manual methods.</li>
+            <li><b>Real-Time Data Analysis:</b> Implementing real-time data analytics to monitor track conditions continuously, ensuring timely detection and resolution of issues.</li>
+            <li><b>Improved Safety and Efficiency:</b> Enhancing safety by reducing the risk of accidents and improving operational efficiency through better maintenance planning.</li>
+          </ul>
+        </p>     <br>    <p>
+          Sahay AI is committed to making railway systems safer, more reliable, and more efficient. By integrating AI and Digital Twin technology, we provide a modern solution to the age-old problems of railway maintenance and inspection. Our approach not only ensures more accurate and timely inspections but also helps in predictive maintenance, reducing the overall risk and cost associated with railway operations.
+        </p> <br>
+        <h2><b> Our team</b></h2>
+        <p >
+          We at Sahay are a multi-cultural team from around the world! We come from diverse
+          backgrounds, bringing different personalities, experiences and skill sets passionate
+          about real world problems.
+        </p> <br>
+
+        <p>
+          Join us in our mission to revolutionize the rail industry with innovative AI solutions!
+        </p>
+      </div>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+    <!-- <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
         publishedTeamMembers.map((teamMemberEntry) => (
           <div class="group">
@@ -52,6 +92,6 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
           </div>
         ))
       }
-    </div>
+    </div> -->
   </Container>
 </Layout>
